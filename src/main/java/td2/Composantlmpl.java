@@ -17,7 +17,7 @@ public abstract class Composantlmpl implements Composant {
         return this.owner;
     }
 
-    public void stOwner(Owner owner, boolean recursive){
+    public void setOwner(Owner owner, boolean recursive){
 
     }
 
