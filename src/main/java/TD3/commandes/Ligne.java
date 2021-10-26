@@ -26,4 +26,9 @@ public class Ligne implements PrePostVisitable, Visitable {
     public void accept(Visitor v){
 
     }
+
+    public String getName()
+    {
+        return this.name;
+    }
 }

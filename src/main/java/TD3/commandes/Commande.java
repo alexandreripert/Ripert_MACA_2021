@@ -25,4 +25,7 @@ public class Commande implements PrePostVisitable, Visitable {
 
     }
 
+    public String getName() {
+        return this.name;
+    }
 }

@@ -9,17 +9,18 @@ public class Client implements PrePostVisitable, Visitable {
 
     private String name;
     private Map<String, Commande> commandes;
+    private Map<String, Ligne> lignes;
 
     public Client(String name){
         this.name = name;
     }
 
     public void addCommande(Commande c){
-
+        commandes.put(c.getName(),c);
     }
 
     public void addLigne(String s, Ligne l){
-
+        lignes.put(l.getName(), l);
     }
 
     @Override
