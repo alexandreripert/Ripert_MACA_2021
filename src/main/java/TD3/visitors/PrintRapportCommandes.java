@@ -10,18 +10,22 @@ public class PrintRapportCommandes implements Visitor {
     public PrintRapportCommandes(){
     }
 
+    @Override
     public void visit(GroupeClient g){
 
     }
 
+    @Override
     public void visit(Client c){
 
     }
 
+    @Override
     public void visit(Commande c){
 
     }
 
+    @Override
     public void visit(Ligne l){
 
     }

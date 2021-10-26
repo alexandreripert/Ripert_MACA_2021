@@ -2,7 +2,7 @@ package td2Forum;
 
 public class Forum {
 
-    private final String topic;
+ /*   private final String topic;
 
     Theme(String topic){
         this.topic = topic;
@@ -26,5 +26,5 @@ public class Forum {
 
     public String toString(){
         return "test";
-    }
+    } */
 }

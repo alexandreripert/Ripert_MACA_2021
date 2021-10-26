@@ -7,10 +7,12 @@ import TD3.commandes.Ligne;
 
 public class XMLRapportCommandes implements PrePostVisitor {
 
+    @Override
     public void preVisit(GroupeClient g){
 
     }
 
+    @Override
     public void preVisit(Client c){
 
     }

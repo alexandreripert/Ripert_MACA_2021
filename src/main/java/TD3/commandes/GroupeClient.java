@@ -26,10 +26,12 @@ public class GroupeClient implements PrePostVisitable, Visitable {
 
     }
 
+    @Override
     public void accept(PrePostVisitor p){
 
     }
 
+    @Override
     public void accept(Visitor v){
 
     }

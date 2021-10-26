@@ -17,10 +17,12 @@ public class Ligne implements PrePostVisitable, Visitable {
         this.sum = sum;
     }
 
+    @Override
     public void accept(PrePostVisitor p){
 
     }
 
+    @Override
     public void accept(Visitor v){
 
     }

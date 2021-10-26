@@ -6,6 +6,7 @@ import TD3.visitors.Visitor;
 public class Commande implements PrePostVisitable, Visitable {
     private String name;
 
+
     public Commande(String name){
         this.name = name;
     }
@@ -14,10 +15,12 @@ public class Commande implements PrePostVisitable, Visitable {
 
     }
 
+    @Override
     public void accept(PrePostVisitor v){
 
     }
 
+    @Override
     public void accept(Visitor v){
 
     }
