@@ -22,7 +22,7 @@ public final class Main {
         this.visiteur = v;
     }
 
-    public static void main(String[] args) /*throws MonException*/ { //à faire plus tard
+    public static void main(String[] args) throws MonException {
         AbstractVisitor xmlVisitor = new XMLRapportCommandes();
         AbstractVisitor printVisitor = new PrintRapportCommandes();
         //
