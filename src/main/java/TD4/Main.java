@@ -6,22 +6,12 @@ public class Main {
 
     public static void main(String args[]){
 
-        Courir co = new Courir();
-        Rouler ro = new Rouler();
-        Voler vo = new Voler();
+        Soldat s = new Soldat();
+        Char c = new Char();
+        Helico h = new Helico();
 
-        Canon ca = new Canon();
-        LanceFlamme lf = new LanceFlamme();
-        Missile mis = new Missile();
-        Mitraillette mit = new Mitraillette();
-
-        Unite u = new Unite();
-
-        u.setDeplacement(co);
-        u.setAttaque(lf);
-
-        u.display();
-        u.performDeplacement();
-        u.performAttaque();
+        s.afficheUnite();
+        c.afficheUnite();
+        h.afficheUnite();
     }
 }

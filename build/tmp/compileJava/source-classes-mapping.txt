@@ -65,8 +65,8 @@ td1/original/api/general/Tomato.java
  td1.original.api.general.Tomato
 TD4/Attaque.java
  TD4.Attaque
-TD4/Unite.java
- TD4.Unite
+TD4/Voler.java
+ TD4.Voler
 TD4/Courir.java
  TD4.Courir
 TD4/Missile.java
@@ -81,5 +81,11 @@ TD4/Rouler.java
  TD4.Rouler
 TD4/Main.java
  TD4.Main
-TD4/Voler.java
- TD4.Voler
+TD4/Soldat.java
+ TD4.Soldat
+TD4/Unite.java
+ TD4.Unite
+TD4/Helico.java
+ TD4.Helico
+TD4/Char.java
+ TD4.Char

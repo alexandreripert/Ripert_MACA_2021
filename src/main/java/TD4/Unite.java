@@ -31,4 +31,11 @@ public class Unite {
     public void display(){
         System.out.println("Unité au rapport");
     }
+
+    public void afficheUnite(){
+        display();
+        performDeplacement();
+        performAttaque();
+        System.out.println("\n");
+    }
 }
