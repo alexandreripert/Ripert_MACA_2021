@@ -1,19 +1,85 @@
-td1/original/api/general/Cheddar.java
- td1.original.api.general.Cheddar
-td1/original/api/general/Burger.java
- td1.original.api.general.Burger
+td2/Composant.java
+ td2.Composant
+TD3/commandes/Ligne.java
+ TD3.commandes.Ligne
+TD3/MonException.java
+ TD3.MonException
 td1/original/api/general/Product.java
  td1.original.api.general.Product
-td1/original/api/general/Sauce.java
- td1.original.api.general.Sauce
- td1.original.api.general.Sauce$SauceType
+TD3/visitors/PrePostVisitor.java
+ TD3.visitors.PrePostVisitor
+TD3/commandes/Visitable.java
+ TD3.commandes.Visitable
 td1/original/api/general/Meat.java
  td1.original.api.general.Meat
  td1.original.api.general.Meat$1
  td1.original.api.general.Meat$MeatType
+TD3/visitors/AbstractVisitor.java
+ TD3.visitors.AbstractVisitor
+TD4/Deplacement.java
+ TD4.Deplacement
+TD3/Main.java
+ TD3.Main
+td1/original/api/general/DeepFriedOnions.java
+ td1.original.api.general.DeepFriedOnions
+TD3/commandes/Commande.java
+ TD3.commandes.Commande
+td1/original/api/general/Burger.java
+ td1.original.api.general.Burger
+td2Forum/Theme.java
+ td2Forum.Theme
+td2/Fichier.java
+ td2.Fichier
+td2/Repertoire.java
+ td2.Repertoire
+TD3/visitors/PrintRapportCommandes.java
+ TD3.visitors.PrintRapportCommandes
+td2Forum/Forum.java
+ td2Forum.Forum
+TD3/commandes/Client.java
+ TD3.commandes.Client
+TD3/commandes/PrePostVisitable.java
+ TD3.commandes.PrePostVisitable
+state/MachineContext.java
+ state.MachineContext
+TD3/commandes/GroupeClient.java
+ TD3.commandes.GroupeClient
+td1/original/api/general/Cheddar.java
+ td1.original.api.general.Cheddar
+td2/Owner.java
+ td2.Owner
+td2/Composantlmpl.java
+ td2.Composantlmpl
+TD3/visitors/XMLRapportCommandes.java
+ TD3.visitors.XMLRapportCommandes
+TD3/visitors/Visitor.java
+ TD3.visitors.Visitor
+td1/original/api/general/Sauce.java
+ td1.original.api.general.Sauce
+ td1.original.api.general.Sauce$SauceType
+td2/Composite.java
+ td2.Composite
 td1/original/client/App.java
  td1.original.client.App
 td1/original/api/general/Tomato.java
  td1.original.api.general.Tomato
-td1/original/api/general/DeepFriedOnions.java
- td1.original.api.general.DeepFriedOnions
+TD4/Attaque.java
+ TD4.Attaque
+TD4/Unite.java
+ TD4.Unite
+TD4/Courir.java
+ TD4.Courir
+TD4/Missile.java
+ TD4.Missile
+TD4/Mitraillette.java
+ TD4.Mitraillette
+TD4/Canon.java
+ TD4.Canon
+TD4/LanceFlamme.java
+ TD4.LanceFlamme
+TD4/Rouler.java
+ TD4.Rouler
+TD4/Main.java
+ TD4.Main
+TD4/Voler.java
+ TD4.Voler
